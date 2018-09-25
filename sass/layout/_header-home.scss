@@ -1,8 +1,19 @@
 .header {
     height: 100vh;
     position: relative;
-    background: url('../img/header_background.png') no-repeat center center;
+    //background: url('../img/header_background.png') no-repeat center center;
     z-index: 100;
+
+    &:before{
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: linear-gradient(to right bottom, rgba($color-black-3, .8), rgba($primary-gold-2, .7));
+    }
 
     @include respond(lg) {
         height: 90vh;
