@@ -4,15 +4,17 @@
     //background: url('../img/header_background.png') no-repeat center center;
     z-index: 100;
 
-    &:before{
-        position: absolute;
-        content: '';
-        display: block;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: linear-gradient(to right bottom, rgba($color-black-3, .8), rgba($primary-gold-2, .7));
+    &__video{
+        &:before{
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: linear-gradient(to right bottom, rgba($color-black-3, .8), rgba($primary-gold-2, .7));
+        }
     }
 
     @include respond(lg) {
@@ -32,8 +34,11 @@
     }
 
     &__logo-box {
-        text-align: center;
+        //text-align: center;
         padding-top: 3.5rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     &__logo {
