@@ -1,10 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <title>Piwko</title>
 </head>
 <body>
-$END$
+
+<div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">O nas</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Pakiety</a></li>
+            <li class="navigation__item"><a href="blog.html" class="navigation__link">Blog</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Kontakt</a></li>
+        </ul>
+    </nav>
+</div>
+
+<header class="header header__single">
+<div class="header__logo-box"><a href="index.html"><img src="img/logo.png" alt="Logo" class="header__logo"/></a></div>
+<div class="header__text-box">
+<h1 class="heading-primary"><span class="heading-primary--main">Blog</span><span class="heading-primary--sub-1">Lorem ipsum dolor sit amet.</span></h1>
+</div>
+<div class="header__scroll-box">
+<div class="header__scroll-content"><span class="header__scroll-content--text">scroll down</span><span class="header__scroll-content--icon"> <i class="fas fa-angle-down fa-2x"></i></span></div>
+</div>
+</header>
+
+<main>
+
+    <section class="main-blog">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-9">
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="post-big">
+
+                                <a href="single.html" class="">
+                                    <h2 class="post-big__title heading-secondary">The art of Breewing</h2>
+                                    <span class="post-big__author">Posted by: Author</span>
+                                    <img src="img/blog_1.jpg" alt="" class="post-big__img">
+                                </a>
+
+                                <p class="post-big__excerpt sub-heading">Phasellus fringilla enim nibh, ac pharetra
+                                    nulla
+                                    vestibulum ac. Donec tempor fermentum felis, non placerat sem ultrices ut. Nam
+                                    molestie
+                                    nunc nec felis hendrerit, in pulvinar arcu mollis. Quisque eget purus nec velit
+                                    venenatis tincidunt vitae ac massa. Proin vel ornare tellus. Duis consectetur
+                                    gravida
+                                    tellus ut varius. Aenean tellus massa, laoreet ut euismod et, pretium id ex. Mauris
+                                    hendrerit suscipit hendrerit.</p>
+                                <p class="post-big__excerpt sub-heading">Quisque ultrices ligula a nisl porttitor,
+                                    vitae
+                                    porta tortor eleifend. Nulla nec imperdiet ipsum, ut cursus mauris. Proin ut sodales
+                                    sem, quis vestibulum libero. Proin tempor venenatis congue. Phasellus mollis massa
+                                    sit
+                                    amet pharetra consequat. Aliquam quis lacus at sapien tempor semper. Sed ultrices et
+                                    metus et elementum. Nunc sed justo at erat consequat mollis et eu lectus.</p>
+
+                                <a href="single.html" class="btn btn--black">Read more...</a></div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="post-small">
+                                <a href="single.php">
+                                    <img src="img/blog_2.jpg" alt="" class="post-small__img">
+                                    <span class="post-small__author">Posted by: Author</span>
+                                    <h3 class="post-small__title">We only use the best hop</h3>
+                                </a>
+                                <p class="post-small__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate dicta dolor ipsum laboriosam qui tempora. Distinctio fugit impedit incidunt laboriosam molestias reprehenderit. A dolor iste odio quod, rem ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate dicta dolor ipsum laboriosam qui tempora. Distinctio fugit impedit incidunt laboriosam molestias reprehenderit. A dolor iste odio quod, rem ut.</p>
+
+                                <div class="post-small__meta">
+                                    <span class="post-small__meta--left float-left"><strong>Tagi:</strong> Post, Standard, New</span>
+                                    <span class="post-small__meta--right float-right"><i class="fas fa-comments"></i> 2</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="post-small">
+                                <a href="single.php">
+                                    <img src="img/blog_3.jpg" alt="" class="post-small__img">
+                                    <span class="post-small__author">Posted by: Author</span>
+                                    <h3 class="post-small__title">We are expanding worldwide</h3>
+                                </a>
+                                <p class="post-small__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate dicta dolor ipsum laboriosam qui tempora. Distinctio fugit impedit incidunt laboriosam molestias reprehenderit. A dolor iste odio quod, rem ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate dicta dolor ipsum laboriosam qui tempora. Distinctio fugit impedit incidunt laboriosam molestias reprehenderit. A dolor iste odio quod, rem ut.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="widget-area">
+                            <h2>Widgets</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav aria-label="Page navigation example ">
+                <ul class="pagination justify-content-center pagination-lg mt-5">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        
+    </section>
+    
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="footer__heading">O nas</h2>
+                <p class="footer__text">Lorem ipsum dolor amet vaporware tilde thundercats you probably haven't heard of them, flannel deep v next level wayfarers shaman street art humblebrag.</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="footer__heading">Współpraca</h2>
+                <p class="footer__text"> Meggings fingerstache 3 wolf moon gentrify pour-over shabby chic listicle plaid readymade. Single-origin coffee kickstarter offal messenger bag vexillologist. </p>
+            </div>
+            <div class="col-md-4">
+                <div class="footer__list">
+                    <h2 class="footer__heading">Bądź w kontakcie</h2><a href="" class="footer__link footer__link--fb"><i class="fab fa-facebook-f"></i></a><a href="" class="footer__link footer__link--tt"><i class="fab fa-twitter"></i></a><a href="" class="footer__link footer__link--yt"><i class="fab fa-youtube"></i></a><a href="" class="footer__link footer__link--pin"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

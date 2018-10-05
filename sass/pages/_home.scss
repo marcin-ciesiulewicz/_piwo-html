@@ -1,7 +1,11 @@
 main {
     position: relative;
-    margin-bottom: 20rem;
+    margin-bottom: 7rem;
     z-index: 100;
+
+    &.main--home{
+        margin-bottom: 20rem;
+    }
 
     @include respond(md) {
         margin-bottom: 40rem;

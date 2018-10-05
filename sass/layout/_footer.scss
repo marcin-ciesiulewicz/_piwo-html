@@ -2,11 +2,14 @@
     background: $background-button-black;
     padding: 4rem;
     height: 20rem;
-    position: fixed;
     bottom: 0;
     width: 100%;
     color: $color-white;
     font-size: initial;
+
+    &--home{
+        position: fixed;
+    }
 
     @include respond(md) {
         height: 40rem;
