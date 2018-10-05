@@ -339,7 +339,7 @@ body {
 /* line 1, ../sass/components/_toTop.scss */
 .toTop {
   font-size: 5rem;
-  color: orangered !important;
+  color: #b4ba98 !important;
   position: fixed;
   right: 30px;
   bottom: 50px;
